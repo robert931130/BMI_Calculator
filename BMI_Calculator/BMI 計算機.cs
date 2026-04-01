@@ -112,10 +112,10 @@ namespace BMI_Calculator
             }
             else if (bmi < 27)
             {
-                lblStatus.Text = "體態分級：過重";
+                lblStatus.Text = "體態分級：體重過重";
                 // 這裡改成了較深、不刺眼的顏色
                 lblStatus.ForeColor = lblResult.ForeColor = Color.DarkGoldenrod;
-                pbBodyImage.Image = Properties.Resources.過重;
+                pbBodyImage.Image = Properties.Resources.體重過重;
             }
             else if (bmi < 30)
             {
@@ -157,6 +157,5 @@ namespace BMI_Calculator
         {
 
         }
-
     }
 }
